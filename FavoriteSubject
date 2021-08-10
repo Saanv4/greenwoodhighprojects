@@ -1,0 +1,3 @@
+name=str(input("What is your name?"))
+q=input("What is your favorite subject " + name + "?" )
+print("I love that subject, too!")
