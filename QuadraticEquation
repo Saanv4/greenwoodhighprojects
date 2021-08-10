@@ -1,0 +1,12 @@
+print("Quadratic Equation: ax^2 + bx + c = 0")
+a=int(input("Please enter a number for a"))
+b=int(input("Please enter a number for b"))
+c=int(input("Please enter a number for c"))
+import cmath
+
+d=(b**2) - (4*a*c)
+
+answer1=(-b-cmath.sqrt(d))/(2*a)
+answer2 =(-b+cmath.sqrt(d))/(2*a)
+
+print(answer1,answer2)
