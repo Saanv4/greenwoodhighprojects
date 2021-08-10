@@ -1,0 +1,6 @@
+name = str(input("What is your name?"))
+def saanvi():
+  if name==saanvi: 
+    print("You are cool!")
+  else: 
+    print("Nice to meet you!")
